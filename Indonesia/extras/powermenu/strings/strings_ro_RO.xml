@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">Avion</string>
+    <string name="label_silent_mode">Fără sunet</string>
+    <string name="label_reboot">Reporneşte</string>
+    <string name="label_shutdown">Deconectează</string>
+    <string name="label_recovery">Recuperare</string>
+	<string name="label_fastboot">Fastboot</string>
+    <string name="label_alert_reboot">Atingeți pentru a reporni</string>
+    <string name="label_alert_shutdown">Atingeți pentru a opri</string>
+    <string name="label_alert_recovery">Mod de recuperare</string>
+    <string name="label_alert_fastboot">Modul fastboot</string>
+    <string name="label_blank">Înapoi</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">Pesawat</string>
+    <string name="label_silent_mode">Senyap</string>
+    <string name="label_reboot">Mula Semula</string>
+    <string name="label_shutdown">Mematikan kuasa</string>
+    <string name="label_recovery">Pemulihan</string>
+	<string name="label_fastboot">Fastboot</string>
+    <string name="label_alert_reboot">Ketik untuk but semula</string>
+    <string name="label_alert_shutdown">Ketik untuk matikan</string>
+    <string name="label_alert_recovery">Mod pemulihan</string>
+    <string name="label_alert_fastboot">Mod fastboot</string>
+    <string name="label_blank">Kembali</string>
+</resources>

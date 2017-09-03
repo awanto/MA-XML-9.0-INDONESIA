@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_title">কোনো সংগীত নাই</string>
+    <string name="no_artist">কোনো সংগীত নাই</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">విమానం</string>
+    <string name="label_silent_mode">నిశ్శబ్దంలో ఉంచు</string>
+    <string name="label_reboot">రీబూట్ చేయి</string>
+    <string name="label_shutdown">పవర్ ఆఫ్ చేయి</string>
+    <string name="label_recovery">రికవరీ</string>
+	<string name="label_fastboot">Fastboot</string>
+    <string name="label_alert_reboot">రీబూట్ నొక్కండి</string>
+    <string name="label_alert_shutdown">ఆఫ్ అధికారంలోకి నొక్కండి</string>
+    <string name="label_alert_recovery">రికవరీ మోడ్</string>
+    <string name="label_alert_fastboot">Fastboot మోడ్</string>
+    <string name="label_blank">తిరిగి</string>
+</resources>

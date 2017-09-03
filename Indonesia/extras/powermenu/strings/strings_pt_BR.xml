@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">Modo avião</string>
+    <string name="label_silent_mode">Silencioso</string>
+    <string name="label_reboot">Reiniciar</string>
+    <string name="label_shutdown">Desligar</string>
+    <string name="label_recovery">Recuperação</string>
+	<string name="label_fastboot">Fastboot</string>
+    <string name="label_alert_reboot">Toque para reiniciar</string>
+    <string name="label_alert_shutdown">Toque para desligar</string>
+    <string name="label_alert_recovery">Modo de recuperação</string>
+    <string name="label_alert_fastboot">Modo fastboot</string>
+    <string name="label_blank">Voltar</string>
+</resources>
