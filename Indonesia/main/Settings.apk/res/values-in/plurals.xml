@@ -13,10 +13,6 @@
         <item quantity="other">Tinggal %1$d langkah untuk menjadi pengembang.</item>
         <item quantity="one">Tinggal %1$d langkah untuk menjadi pengembang.</item>
     </plurals>
-    <plurals name="dlg_remove_locales_title">
-        <item quantity="other">Hapus bahasa yang dipilih?</item>
-        <item quantity="one">Hapus bahasa yang dipilih?</item>
-    </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
         <item quantity="other">%1$d sidik jari disiapkan</item>
         <item quantity="one">%1$d sidik jari disiapkan</item>
@@ -48,58 +44,6 @@
     <plurals name="wrong_pin_code">
         <item quantity="other">Kode PIN SIM salah, sisa %d percobaan.</item>
         <item quantity="one">Kode PIN SIM salah, sisa %d percobaan sebelum Anda harus menghubungi operator untuk membuka kunci perangkat.</item>
-    </plurals>
-    <plurals name="uri_permissions_text">
-        <item quantity="other">%d item</item>
-        <item quantity="one">1 item</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Penundaan terlalu singkat (%1$d md)</item>
-        <item quantity="one">Penundaan terlalu singkat (%1$d md)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Penundaan sangat singkat (%1$d md)</item>
-        <item quantity="one">Penundaan sangat singkat (%1$d md)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Penundaan singkat (%1$d md)</item>
-        <item quantity="one">Penundaan singkat (%1$d md)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Penundaan lama (%1$d md)</item>
-        <item quantity="one">Penundaan lama (%1$d md)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Penundaan sangat lama (%1$d md)</item>
-        <item quantity="one">Penundaan sangat lama (%1$d md)</item>
-    </plurals>
-    <plurals name="print_settings_title">
-        <item quantity="other">%d tugas pencetakan</item>
-        <item quantity="one">1 tugas pencetakan</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_dialog_title">
-        <item quantity="other">Percayai atau hapus sertifikat</item>
-        <item quantity="one">Percayai atau hapus sertifikat</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"%s telah memasang otoritas sertifikat di perangkat Anda, yang mungkin mengizinkan mereka memantau aktivitas jaringan perangkat, termasuk email, aplikasi, dan situs web aman.
-
-Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
-        <item quantity="one">"%s telah memasang otoritas sertifikat di perangkat Anda, yang mungkin mengizinkan mereka memantau aktivitas jaringan perangkat, termasuk email, aplikasi, dan situs web aman.
-
-Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"%s telah memasang otoritas sertifikat untuk profil kerja Anda, yang mungkin mengizinkan mereka memantau aktivitas jaringan kerja, termasuk email, aplikasi, dan situs web aman.
-
-Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
-        <item quantity="one">"%s telah memasang otoritas sertifikat untuk profil kerja Anda, yang mungkin mengizinkan mereka memantau aktivitas jaringan kerja, termasuk email, aplikasi, dan situs web aman.
-
-Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_settings_button">
-        <item quantity="other">Periksa sertifikat</item>
-        <item quantity="one">Periksa sertifikat</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d aplikasi dapat membaca notifikasi</item>
@@ -137,14 +81,6 @@ Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
         <item quantity="other">%1$d aplikasi menggunakan memori dalam %2$s terakhir</item>
         <item quantity="one">1 aplikasi menggunakan memori dalam %2$s terakhir</item>
     </plurals>
-    <plurals name="notification_summary">
-        <item quantity="other">%d aplikasi diblokir agar tidak dapat mengirim</item>
-        <item quantity="one">%d aplikasi diblokir agar tidak dapat mengirim</item>
-    </plurals>
-    <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d aplikasi diizinkan untuk menggunakan data yang tidak dibatasi jika Penghemat Data aktif</item>
-        <item quantity="one">1 aplikasi diizinkan untuk menggunakan data yang tidak dibatasi jika Penghemat Data aktif</item>
-    </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d risiko ditemukan</item>
     </plurals>
@@ -152,7 +88,7 @@ Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
         <item quantity="other">%d apps are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN harus %d digit</item>
+        <item quantity="other">PIN must be %d digits</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Berbagi %d jaringan</item>
@@ -177,5 +113,20 @@ Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Jangan nonaktifkan untuk %d apl</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN must be %d digits long</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">PIN can contain up to %d digits</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Connect at least %d dots. Try again.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Wait for %d seconds and try again.</item>
     </plurals>
 </resources>

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="status_bar_style_entries">
+        <item>Gabung</item>
+        <item>Pisah</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_entries">
+        <item>Only show in lock screen and notification panel</item>
+        <item>Always show carrier name</item>
+        <item>Never show carrier name</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Memindai…</item>
@@ -27,157 +41,6 @@
         <item>Gagal</item>
         <item>Terblokir</item>
         <item>Sementara menghindari koneksi yang buruk</item>
-    </string-array>
-    <string-array name="hdcp_checking_titles">
-        <item>Never check</item>
-        <item>Check for DRM content only</item>
-        <item>Always check</item>
-    </string-array>
-    <string-array name="hdcp_checking_summaries">
-        <item>Never use HDCP checking</item>
-        <item>Use HDCP checking for DRM content only</item>
-        <item>Always use HDCP checking</item>
-    </string-array>
-    <string-array name="select_logd_size_titles">
-        <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
-    </string-array>
-    <string-array name="select_logd_size_lowram_titles">
-        <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-    </string-array>
-    <string-array name="select_logd_size_summaries">
-        <item>Off</item>
-        <item>64K per log buffer</item>
-        <item>256K per log buffer</item>
-        <item>1M per log buffer</item>
-        <item>4M per log buffer</item>
-        <item>16M per log buffer</item>
-    </string-array>
-    <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
-    </string-array>
-    <string-array name="transition_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
-    </string-array>
-    <string-array name="animator_duration_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
-    </string-array>
-    <string-array name="overlay_display_devices_entries">
-        <item>None</item>
-        <item>480p</item>
-        <item>480p (secure)</item>
-        <item>720p</item>
-        <item>720p (secure)</item>
-        <item>1080p</item>
-        <item>1080p (secure)</item>
-        <item>4K</item>
-        <item>4K (secure)</item>
-        <item>4K (upscaled)</item>
-        <item>4K (upscaled, secure)</item>
-        <item>720p, 1080p (dual screen)</item>
-    </string-array>
-    <string-array name="enable_opengl_traces_entries">
-        <item>None</item>
-        <item>Logcat</item>
-        <item>Systrace (Graphics)</item>
-        <item>Call stack on glGetError</item>
-    </string-array>
-    <string-array name="show_non_rect_clip_entries">
-        <item>Off</item>
-        <item>Draw non-rectangular clip region in blue</item>
-        <item>Highlight tested drawing commands in green</item>
-    </string-array>
-    <string-array name="track_frame_time_entries">
-        <item>Off</item>
-        <item>On screen as bars</item>
-        <item>In adb shell dumpsys gfxinfo</item>
-    </string-array>
-    <string-array name="debug_hw_overdraw_entries">
-        <item>Off</item>
-        <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
-    </string-array>
-    <string-array name="app_process_limit_entries">
-        <item>Standard limit</item>
-        <item>No background processes</item>
-        <item>At most 1 process</item>
-        <item>At most 2 processes</item>
-        <item>At most 3 processes</item>
-        <item>At most 4 processes</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>Charging</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Audio Source</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="tts_rate_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
-        <item>Very fast</item>
-        <item>Rapid</item>
-        <item>Very rapid</item>
-        <item>Fastest</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Vibrant (default)</item>
-        <item>Natural</item>
-        <item>Standard</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Enhanced colors</item>
-        <item>Natural colors as seen by the eye</item>
-        <item>Colors optimized for digital content</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
-    </string-array>
-    <string-array name="status_bar_style_entries">
-        <item>Gabung</item>
-        <item>Pisah</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
@@ -220,9 +83,38 @@
     </string-array>
     <string-array name="entries_font_size">
         <item>Kecil</item>
-        <item>Default</item>
+        <item>Normal</item>
         <item>Besar</item>
-        <item>Terbesar</item>
+        <item>Raksasa</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Sangat rendah</item>
+        <item>Rendah</item>
+        <item>Normal</item>
+        <item>Tinggi</item>
+        <item>Sangat tinggi</item>
     </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
@@ -407,25 +299,11 @@
         <item>memantau lokasi berdaya tinggi</item>
         <item>dapatkan statistik penggunaan</item>
         <item>bisukan/suarakan mikrofon</item>
-        <item>tampilkan seranta</item>
         <item>media proyek</item>
         <item>aktifkan VPN</item>
         <item>tulis wallpaper</item>
         <item>bantu struktur</item>
         <item>bantu tangkapan layar</item>
-        <item>baca status telepon</item>
-        <item>tambahkan pesan suara</item>
-        <item>gunakan sip</item>
-        <item>proses panggilan keluar</item>
-        <item>sidik jari</item>
-        <item>sensor tubuh</item>
-        <item>baca siaran sel</item>
-        <item>lokasi palsu</item>
-        <item>baca penyimpanan</item>
-        <item>tulis penyimpanan</item>
-        <item>aktifkan layar</item>
-        <item>dapatkan akun</item>
-        <item>jalankan di latar belakang</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Lokasi</item>
@@ -473,25 +351,11 @@
         <item>Lokasi</item>
         <item>Dapatkan statistik penggunaan</item>
         <item>Bisukan/suarakan mikrofon</item>
-        <item>Tampilkan seranta</item>
         <item>Media proyek</item>
         <item>Aktifkan VPN</item>
         <item>Tulis wallpaper</item>
         <item>Bantu struktur</item>
         <item>Bantu tangkapan layar</item>
-        <item>Baca status telepon</item>
-        <item>Tambahkan pesan suara</item>
-        <item>Gunakan sip</item>
-        <item>Proses panggilan keluar</item>
-        <item>Sidik jari</item>
-        <item>Sensor tubuh</item>
-        <item>Baca siaran sel</item>
-        <item>Lokasi palsu</item>
-        <item>Baca penyimpanan</item>
-        <item>Tulis penyimpanan</item>
-        <item>Aktifkan layar</item>
-        <item>Dapatkan akun</item>
-        <item>Jalankan di latar belakang</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Singkat</item>
@@ -537,6 +401,108 @@
         <item>Kuning berlatar hitam</item>
         <item>Kuning berlatar biru</item>
         <item>Khusus</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Never use HDCP checking</item>
+        <item>Use HDCP checking for DRM content only</item>
+        <item>Always use HDCP checking</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>On screen as bars</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for Deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard limit</item>
+        <item>No background processes</item>
+        <item>At most 1 process</item>
+        <item>At most 2 processes</item>
+        <item>At most 3 processes</item>
+        <item>At most 4 processes</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
@@ -596,21 +562,19 @@
         <item>Merah Muda</item>
         <item>Merah</item>
     </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Charging</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Source</item>
+        <item>MIDI</item>
+    </string-array>
     <string-array name="wifi_calling_mode_choices">
         <item>Wi-Fi dipilih</item>
         <item>Seluler dipilih</item>
-        <item>Khusus Wi-Fi</item>
     </string-array>
     <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>Wi-Fi dipilih</item>
-        <item>Seluler dipilih</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
         <item>2</item>
         <item>1</item>
     </string-array>
@@ -797,14 +761,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Hubung secara otomatis</item>
         <item>Hubung secara manual</item>
     </string-array>
-    <string-array name="connect_mode_entries">
-        <item>comtible mode</item>
-        <item>high mode</item>
-    </string-array>
-    <string-array name="connect_mode_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="traffic_balance_entries">
         <item>close</item>
         <item>normal mode</item>
@@ -990,17 +946,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     <string-array name="screen_button_style">
         <item>Gaya tangan kiri</item>
         <item>Gaya tangan kanan</item>
-    </string-array>
-    <string-array name="screen_resolution_format">
-        <item>@string/screen_resolution_ultrahigh_format</item>
-        <item>@string/screen_resolution_high_format</item>
-        <item>@string/screen_resolution_normal_format</item>
-    </string-array>
-    <string-array name="edge_touch_volume_action">
-        <item>Click adjust - Double click trigger</item>
-        <item>Slip adjust - Slip trigger</item>
-        <item>Click adjust - Click trigger</item>
-        <item>Click adjust - Long Click trigger</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
@@ -1293,14 +1238,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
-    <string-array name="silent_entries">
-        <item>@string/standard</item>
-        <item>@string/total</item>
-    </string-array>
-    <string-array name="silent_values">
-        <item>1</item>
-        <item>3</item>
-    </string-array>
     <string-array name="alarm_repeat_type">
         <item>Tiap hari</item>
         <item>Hari kerja</item>
@@ -1324,18 +1261,100 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>CPU</item>
-        <item>Kapasitas Baterai</item>
-        <item>Kamera Belakang</item>
-        <item>Bentang Layar</item>
-        <item>Resolusi</item>
-        <item>Android Mod</item>
+        <item>Battery capacity</item>
+        <item>Rear camera</item>
+        <item>Screen size</item>
+        <item>Resolution</item>
+        <item>Android version</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 625</item>
-        <item>4100mAh(typ)</item>
+        <item>Snapdragon 801</item>
+        <item>3080mAh(typ)</item>
         <item>13MP</item>
-        <item>5.5 inches</item>
-        <item>1920 x 1080</item>
-        <item>Awanto</item>
+        <item>5 inches</item>
+        <item>1920 × 1080</item>
+        <item>6.0.1</item>
+    </string-array>
+    <string-array name="miracast_policies">
+        <item>Tunda lbh singkat</item>
+        <item>Standar</item>
+        <item>Kualitas lbh baik</item>
+    </string-array>
+    <string-array name="standard_configuration_version_mi3">
+        <item>3.00GB</item>
+        <item>16GB</item>
+        <item>Quad-core Max 2.5GHz</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_primary_mi3">
+        <item>CPU</item>
+        <item>Battery capacity</item>
+        <item>Rear camera</item>
+        <item>Screen size</item>
+        <item>Resolution</item>
+        <item>Android version</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_secondary_mi3">
+        <item>Snapdragon 800</item>
+        <item>3050mAh(typ)</item>
+        <item>13MP</item>
+        <item>5 inches</item>
+        <item>1920 × 1080</item>
+        <item>6.0.1</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Enhanced colors</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="connect_mode_entries">
+        <item>comtible mode</item>
+        <item>high mode</item>
+    </string-array>
+    <string-array name="connect_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="edge_touch_volume_action">
+        <item>Click adjust - Double click trigger</item>
+        <item>Slip adjust - Slip trigger</item>
+        <item>Click adjust - Click trigger</item>
+        <item>Click adjust - Long Click trigger</item>
+    </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
+    <string-array name="silent_values">
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="silent_mode_duration_text">
+        <item>Always</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>8 hours</item>
+    </string-array>
+    <string-array name="silent_mode_duration_value">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>480</item>
     </string-array>
 </resources>
