@@ -789,7 +789,8 @@ Kartu kontak dimatikan"</string>
     <string name="zero_items_selected">Pilih item</string>
     <string name="select_all">Pilih semua</string>
     <string name="deselect_all">Tdk pilih semua</string>
-    <string name="select_done">Tak ada yang bisa dipilih</string>
+    <string name="select_exceed">Select no more than %1$d</string>
+    <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
     <string name="select_none">Tak ada yang dipilih</string>
     <string name="toast_finish_delete_call_log">Riwayat panggilan terhapus</string>
     <string name="toast_finish_delete_selected_call_log">Riwayat panggilan terhapus</string>
@@ -924,7 +925,7 @@ Kartu kontak dimatikan"</string>
     <string name="option_view_contact">Lihat</string>
     <string name="option_edit_contact">Ubah</string>
     <string name="option_delete_contact">Hapus</string>
-    <string name="option_delete_batch_contacts">Delete batch</string>
+    <string name="option_delete_batch_contacts">Hapus kumpulan</string>
     <string name="option_send_to_desktop">Letakkan di Layar utama</string>
     <string name="option_send_to_others">Teruskan</string>
     <string name="option_not_star">Hapus dr favorit</string>
@@ -933,8 +934,6 @@ Kartu kontak dimatikan"</string>
     <string name="option_rename_group">Ganti nama</string>
     <string name="option_delete_group">Hapus</string>
     <string name="deleteConfirmation_title">Hapus kontak ini?</string>
-    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" mengandung info dari banyak akun. Info yang tidak dapat dihapus akan disembunyikan dari daftar kontak Anda.</string>
-    <string name="multipleContactDeleteConfirmationDetail">Menghapus \"%s\" akan menghapus info dari beberapa akun.</string>
     <string name="deleteConfirmationDetail">Hapus \"%s\"?</string>
     <string name="nickname_picker_name_column">Nama kontak</string>
     <string name="nickname_picker_nickname_column">Jabatan</string>
@@ -959,7 +958,7 @@ Kartu kontak dimatikan"</string>
     <string name="antispam_provider_format">Diidentifikasi oleh %s</string>
     <string name="type_mx_msg">Mi Message</string>
     <string name="qr_card_card">Kode QR</string>
-    <string name="unknown_details_new_contact">New contact</string>
+    <string name="unknown_details_new_contact">Kontak baru</string>
     <string name="unfold_all">unfold all</string>
     <string name="menu_new_favorite_action_bar">Favoritkan</string>
     <string name="click_close">Ketuk utk tutup</string>
@@ -1118,8 +1117,6 @@ Kartu kontak dimatikan"</string>
     <string name="confirm_delete_sim_entry_miui_title">Hapus</string>
     <string name="importing_sim_contacts_miui_prepare">Mempersiapkan kontak…</string>
     <string name="deleting_sim_entry_miui_prepare">Mempersiapkan kontak…</string>
-    <string name="sim_contact_dropdown_menu_deselect_all_miui">Batal pilih</string>
-    <string name="sim_contact_dropdown_menu_select_all_miui">Pilih semua</string>
     <string name="delete_selected_sim_entry_miui">Hapus kontak terpilih</string>
     <string name="import_selected_sim_entries_miui">Impor kontak terpilih</string>
     <string name="add_blacklist_dialog_title">Blokir nomor ini?</string>
@@ -1251,9 +1248,6 @@ Untuk menghindari permintaan info terlalu sering, kami akan memperbarui info sal
     <string name="editContactNameExpandCloseDescription">Tutup nama</string>
     <string name="force_touch_new_contact">Kontak baru</string>
     <string name="force_touch_miprofile">Kartu kontak</string>
-    <string name="fraud_more_indemnity">Lainnya</string>
-    <string name="telecom_fraud_insurance">Asuransi penipuan Telecom</string>
-    <string name="telecom_fraud_insurance_description">10,000 RMB asuransi | Penawaran spesial Xiaomi | 9.9 RMB per tahun</string>
     <string name="yesterday">Kemarin</string>
     <string name="tomorrow">Besok</string>
     <string name="low_memory_toast">Tidak dapat memakai fitur ini karena memori rendah</string>
@@ -1261,4 +1255,9 @@ Untuk menghindari permintaan info terlalu sering, kami akan memperbarui info sal
     <string name="contact_search_history">Riwayat</string>
     <string name="contact_clear_search_history">Hapus riwayat</string>
     <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
+    <string name="t9_search_empty_create_contact">New contact</string>
+    <string name="t9_search_empty_video_call">Video call</string>
+    <string name="t9_search_empty_send_sms">Send message</string>
+    <string name="t9_search_empty_edit_contact">Add to contact</string>
+    <string name="add_field_toast">No more fields to add.</string>
 </resources>
